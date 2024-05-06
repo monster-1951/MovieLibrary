@@ -34,7 +34,7 @@ const MovieList = ({ res }) => {
                         className="h-[300px] w-full border-solid border-2 border-[#032030] hover:w-[250px]"
                         alt=""
                       />
-                      <Link to={`/MovieDetails/${i.Title}/${i.Year}/${i.imdbID}/${i.Type}/`} target="_blank">
+                      <Link to={`/MovieLibrary/MovieDetails/${i.Title}/${i.Year}/${i.imdbID}/${i.Type}/`} target="_blank">
                       <li className="font-semibold p-5 bg-[#032030] mt-2 font-mono">
                         {i.Title}
                       </li>

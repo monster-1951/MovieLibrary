@@ -34,7 +34,7 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/MovieLibrary/",
       element: (
         <>
           <h1 className="text-5xl font-bold p-5 font-mono">Movie Library</h1>
@@ -56,7 +56,7 @@ function App() {
       ),
     },
     {
-      path: "/MovieDetails/:MovieName/:MovieYear/:MovieId/:Type",
+      path: "/MovieLibrary/MovieDetails/:MovieName/:MovieYear/:MovieId/:Type",
       element: (
         <>
           <h1 className="text-5xl font-bold p-5 font-mono">Movie Library</h1>
